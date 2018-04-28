@@ -8,7 +8,7 @@
     stages{
             stage('Build'){
                 steps {
-                    build job: 'udemy_package_step'
+                    build job: 'udemy_pipeline_package_step'
                 }
             }
         }
