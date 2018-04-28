@@ -3,9 +3,11 @@ pipeline {
     agent any
     stages{	
 	    stage('Build'){
-			steps {
-				sh 'mvn -version'
+		steps {
+			echo "Not having any fun!"
+			sh 'mvn -version'
+			echo "Close to giving up!"
             }
         }
-   	}
+   }
 }
